@@ -6,9 +6,6 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
-.body {
-  overflow: hidden;
-}
 .title {
   font-size: 400px;
   color: white;
@@ -18,7 +15,7 @@
   color: black;
   height: 58px;
   position: absolute;
-  top: 72.4vh;
+  top: 59.8vh;
   left: 140px;
   background-color: rgba(25, 25, 25, 0);
 }
@@ -28,7 +25,7 @@
   height: 10px;
 }
 .heading-contain {
-  margin-top: 30vh;
+  margin-top: 17.5vh;
 }
 .body {
   overflow: hidden;

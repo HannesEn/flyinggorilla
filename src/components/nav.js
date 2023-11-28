@@ -6,14 +6,14 @@ export function Nav() {
     <div>
       <ul className="navbar">
         <li>
-          <a href="#">company</a>
+          <a href="#">COMPANY</a>
         </li>
         <li>
-          <a href="#">products</a>
+          <a href="#">PRODUCTS</a>
         </li>
         <li>
           <a href="#" className="log-in">
-            Log in
+            Log In
           </a>
         </li>
       </ul>

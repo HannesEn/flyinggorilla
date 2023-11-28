@@ -1,18 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 * {
   background-color: rgb(25, 25, 25);
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 .body {
   overflow: hidden;
 }
 .title {
-  font-size: 350px;
+  font-size: 400px;
   color: white;
+}
+.small-title {
+  font-size: 35px;
+  color: black;
+  height: 58px;
+  position: absolute;
+  top: 72.4vh;
+  left: 140px;
+  background-color: rgba(25, 25, 25, 0);
 }
 .title-extension {
   font-size: 50px;
   color: rgba(255, 255, 255, 0.484);
   height: 10px;
+}
+.heading-contain {
+  margin-top: 30vh;
+}
+.body {
+  overflow: hidden;
 }

@@ -7,8 +7,11 @@
   text-align: center;
   align-items: center;
   border-bottom: rgba(255, 255, 255, 0.484) 1px solid;
+  justify-content: flex-end;
 }
-
+ul {
+  list-style: none;
+}
 .navbar a {
   text-decoration: none;
   list-style: none;
@@ -22,4 +25,8 @@
   padding-top: 8px;
   padding-bottom: 8px;
   border-radius: 5px;
+  margin-right: 30px;
+}
+.navbar a:not(.log-in):hover {
+  color: black;
 }

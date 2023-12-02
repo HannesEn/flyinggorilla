@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "./Home.css";
 import React from "react";
 import { Nav } from "./components/nav";

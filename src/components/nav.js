@@ -1,30 +1,36 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "../css/nav.css";
 
-export function Nav() {
+export function Nav({ activeLink }) {
   return (
     <div>
       <ul className="navbar">
         <li>
-          <NavLink exact to="/" activeClassName="active-link">
+          <Link to="/" className={activeLink === "home" ? "active-link" : ""}>
             HOME
-          </NavLink>
+          </Link>
         </li>
         <li>
-          <NavLink to="/company" activeClassName="active-link">
+          <Link
+            to="/company"
+            className={activeLink === "company" ? "active-link" : ""}
+          >
             COMPANY
-          </NavLink>
+          </Link>
         </li>
         <li>
-          <NavLink to="/products" activeClassName="active-link">
+          <Link
+            to="/products"
+            className={activeLink === "products" ? "active-link" : ""}
+          >
             PRODUCTS
-          </NavLink>
+          </Link>
         </li>
         <li>
-          <NavLink to="/login" activeClassName="active-link" className="log-in">
+          <Link to="/login" className="log-in">
             Log In
-          </NavLink>
+          </Link>
         </li>
       </ul>
     </div>

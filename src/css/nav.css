@@ -17,8 +17,10 @@ ul {
   color: white;
   font-weight: 400;
 }
-.navbar a {
+.navbar a:not(.active-link) {
   text-decoration: none;
+}
+.navbar a {
   list-style: none;
   margin-left: 50px;
 }

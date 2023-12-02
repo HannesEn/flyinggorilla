@@ -5,7 +5,7 @@ import { Nav } from "./components/nav";
 function App() {
   return (
     <div className="App">
-      <Nav />
+      <Nav activeLink={"home"} />
       <div className="body">
         <header className="App-header"></header>
         <div className="heading-contain">

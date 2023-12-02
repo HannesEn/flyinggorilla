@@ -5,7 +5,7 @@ import "./Products.css";
 export default function Products() {
   return (
     <div>
-      <Nav />
+      <Nav activeLink={"products"} />
       <h1>Products</h1>
     </div>
   );

@@ -45,3 +45,6 @@ ul {
   transition-duration: 0.5s;
   color: rgb(83, 83, 83);
 }
+.active-link {
+  text-decoration: underline;
+}

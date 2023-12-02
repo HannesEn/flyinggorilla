@@ -1,12 +1,44 @@
 import React from "react";
 import { Nav } from "./components/nav";
 import "./Company.css";
+import { useNavigate } from "react-router-dom";
 
 export default function Company() {
+  const navigate = useNavigate();
+
+  const explore = () => {
+    navigate("/");
+  };
   return (
     <div>
       <Nav activeLink={"company"} />
-      <h1>Company</h1>
+      <div className="company-body">
+        <h1 className="company-title">The Company</h1>
+        <h3 className="company-sub-title">
+          Creating useful Artificial Intelligence, responsibly.
+        </h3>
+        <h3 className="company-faq">FAQ</h3>
+        <details>
+          <summary>When did this all begin?</summary>
+          <p>In 2023, founded by 2 high school students.</p>
+        </details>
+        <details>
+          <summary>How much founding has been raised?</summary>
+          <p>Zero hundred and zero, zero dollars.</p>
+        </details>
+        <details>
+          <summary>How many employees?</summary>
+          <p>2.</p>
+        </details>
+        <details>
+          <summary>Where is the company going?</summary>
+          <p>Idk.</p>
+        </details>
+        <h3 className="company-jobs">Current job opportunities</h3>
+        <button className="job-explore-button" onClick={explore} type="button">
+          Explore
+        </button>
+      </div>
     </div>
   );
 }

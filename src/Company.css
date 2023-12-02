@@ -1,0 +1,70 @@
+.company-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.company-title {
+  font-size: 50px;
+  color: white;
+  margin-top: 20vh;
+}
+.company-sub-title {
+  font-size: 20px;
+  color: white;
+  margin-top: 10px;
+  font-weight: 400;
+  margin-bottom: 50px;
+}
+.company-body details {
+  font-size: 15px;
+  color: white;
+  margin-top: 10px;
+  font-weight: 400;
+  border: 1px solid white;
+  width: 50vw;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  border-radius: 5px;
+}
+.company-body details summary {
+  font-weight: 700;
+}
+.company-body details summary:hover {
+  cursor: pointer;
+}
+.company-body details p {
+  margin-top: 10px;
+}
+.company-faq {
+  color: white;
+  font-weight: 600;
+  margin-top: 20px;
+}
+.company-jobs {
+  color: white;
+  font-weight: 600;
+  margin-top: 70px;
+}
+.job-explore-button {
+  background-color: white;
+  width: 300px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+  color: rgb(25, 25, 25);
+  font-weight: 600;
+  font-size: 15px;
+  border: 1px solid rgb(25, 25, 25);
+  transition-duration: 0.5s;
+  margin-top: 40px;
+  margin-bottom: 100px;
+}
+.job-explore-button:hover {
+  background-color: rgb(25, 25, 25);
+  color: white;
+  border: 1px solid white;
+  transition-duration: 0.5s;
+  cursor: pointer;
+}

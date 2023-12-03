@@ -1,4 +1,4 @@
-import "./Company.css";
+import "./css/Company.css";
 import { Nav } from "./components/nav";
 
 export default function Company() {

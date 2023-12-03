@@ -1,6 +1,6 @@
 import React from "react";
 import { Nav } from "./components/nav";
-import "./Products.css";
+import "./css/Products.css";
 
 export default function Products() {
   return (

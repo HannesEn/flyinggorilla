@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Nova+Square&display=swap");
+.products-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  flex-direction: column;
+}
+.products-title {
+  font-size: 50px;
+  margin-top: 20vh;
+}
+.explore-products-button {
+  background-color: white;
+  color: rgb(25, 25, 25);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid rgb(25, 25, 25);
+  font-weight: 600;
+  transition-duration: 0.5s;
+  text-decoration: none;
+  width: 300px;
+  margin-top: 30px;
+}
+
+.explore-products-button:hover {
+  background-color: rgb(25, 25, 25);
+  color: white;
+  border: 1px solid white;
+  transition-duration: 0.5s;
+  cursor: pointer;
+}
+.products-sub-heading-1 {
+  font-size: 20px;
+  margin-top: 10px;
+  font-weight: 400;
+  margin-bottom: 50px;
+  width: 100vw;
+  text-align: left;
+  margin-left: 10vw;
+  margin-top: 100px;
+}
+.products-nr-1 {
+  font-weight: 300;
+  color: rgb(165, 165, 165);
+  font-family: "Nova Square", sans-serif;
+}
+.products-title-span-1 {
+  text-decoration: underline;
+  text-decoration-thickness: 1.5px;
+}
+.products-container p {
+  margin-top: 50px;
+}

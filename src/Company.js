@@ -1,13 +1,9 @@
-import React from "react";
-import { Nav } from "./components/nav";
 import "./Company.css";
-import { useNavigate } from "react-router-dom";
+import { Nav } from "./components/nav";
 
 export default function Company() {
-  const navigate = useNavigate();
-
   const explore = () => {
-    navigate("/");
+    window.open("https://d9e4c503120223.au.deputy.com/jobs#/", "_blank");
   };
   return (
     <div>

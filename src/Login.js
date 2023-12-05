@@ -4,11 +4,15 @@ import { useNavigate } from "react-router-dom";
 import "./css/login.css";
 
 export default function Login() {
-  const { login, register } = useKindeAuth();
+  const { login, register, user } = useKindeAuth();
   const navigate = useNavigate();
 
   const goBack = () => {
     navigate("/");
+  };
+
+  const onRedirectCallback = (user, app_state) => {
+    console.log({ user, app_state });
   };
 
   return (
@@ -28,6 +32,7 @@ export default function Login() {
         <button className="back-button" onClick={goBack} type="button">
           Back
         </button>
+        <h3>{user ? user : null}</h3>
       </div>
     </div>
   );

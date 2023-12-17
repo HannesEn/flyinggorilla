@@ -1,10 +1,28 @@
+/**
+ * @file Company.js is a component that displays information about the company.
+ *
+ * @requires Nav - The Nav component is used for navigation.
+ */
+
 import "./css/Company.css";
 import { Nav } from "./components/nav";
 
+/**
+ * The Company component displays information about the company; Flying Gorilla.
+ *
+ * It includes a navigation bar (Nav component), a title, a subtitle, a FAQ section with details about the company,
+ * and a section for current job opportunities with a button that opens the jobs page in a new tab.
+ *
+ * @returns {JSX.Element} The rendered Company component.
+ */
 export default function Company() {
+  /**
+   * Opens the jobs page in a new tab.
+   */
   const explore = () => {
     window.open("https://d9e4c503120223.au.deputy.com/jobs#/", "_blank");
   };
+
   return (
     <div>
       <Nav activeLink={"company"} />

@@ -1,7 +1,22 @@
+/**
+ * @file Products.js is a component that displays the products page of the application.
+ *
+ * @requires react - Used for building the component.
+ * @requires ./components/nav - The Nav component is used for navigation.
+ * @requires ./css/Products.css - Styles for the Products component.
+ */
+
 import React from "react";
 import { Nav } from "./components/nav";
 import "./css/Products.css";
 
+/**
+ * The Products component displays the products page of the application.
+ *
+ * It includes a navigation bar (Nav component) and a section with information about the company's products.
+ *
+ * @returns {JSX.Element} The rendered Products component.
+ */
 export default function Products() {
   return (
     <div>

@@ -9,15 +9,22 @@
 .title {
   font-size: 400px;
   color: white;
+  position: relative;
 }
+.title-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 .small-title {
   font-size: 35px;
   color: rgb(25, 25, 25);
   height: 58px;
-  position: absolute;
-  top: 59.8vh;
-  left: 140px;
   background-color: rgba(25, 25, 25, 0);
+  z-index: 1;
+  transform: translate(-470px, 333px);
 }
 .title-extension {
   font-size: 50px;
